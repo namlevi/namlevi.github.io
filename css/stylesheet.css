@@ -1,5 +1,90 @@
-body {
-  background: #ccc;
-  color: #000
- }
-  h1 {
+body{
+  font-family:futura;
+  color:black;
+  }
+h1{
+  padding-top: 10px;
+  margin: 0px;
+  text-align: center;
+  font-size: 100px;
+
+}
+.navi_item{
+  /*display: block;*/
+  padding: 0px;
+  text-align: center;
+  font-size: 30px;
+  min-width: 200px;
+  /* padding-top: 30px; */
+}
+
+
+/* Listenpunkte weg */
+.navi_item ul {
+  margin: 0;
+  padding: 0;
+}
+
+.navi_item a:hover {
+  font-weight: bold;
+}
+
+.navi_item li {
+  display: inline;            /* Listenelemente nebeneinander */
+  list-style-type: none;      /* Aufzählungszeichen entfernen */
+}
+.navi_item a:hover {
+  color: black;                  /* Schriftfarbe schwarz */
+  text-decoration: none;         /* Unterstreichung entfernen */
+  padding: 4px 8px;              /* oben/unten 4px, re/li 8px */
+}
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.bilder_container {
+  width: 1300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 33.33%;
+  float: left;
+  padding: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*div.bilder_container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.container {
+  display:inline-block;
+}
