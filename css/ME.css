@@ -1,0 +1,19 @@
+body{
+  font-family:arial;
+  color:black;
+  }
+h1 a{
+  padding-top: 20px;
+  font-size: 60px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;}
+
+h1 a:hover{
+  color: red;                  /* Schriftfarbe schwarz */
+  text-decoration: none;         /* Unterstreichung entfernen */
+  padding: 0px 0px;}
+h1{
+  text-align: center;
+  padding-bottom: 0px;
+}

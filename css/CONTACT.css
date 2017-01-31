@@ -10,7 +10,7 @@ h1 a{
   color: black;}
 
 h1 a:hover{
-  color: blue;                  /* Schriftfarbe schwarz */
+  color: red;                  /* Schriftfarbe schwarz */
   text-decoration: none;         /* Unterstreichung entfernen */
   padding: 0px 0px;}
 h1{

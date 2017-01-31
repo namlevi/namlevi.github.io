@@ -1,0 +1,28 @@
+body{
+  font-family:arial;
+  color:black;
+  background: red;
+  }
+h1 a{
+  padding-top: 20px;
+  font-size: 140px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;}
+
+
+h1 a:hover{
+  color: blue;                  /* Schriftfarbe schwarz */
+  text-decoration: none;         /* Unterstreichung entfernen */
+  padding: 0px 0px;}
+h1{
+  text-align: center;
+  padding-bottom: 0px;
+}
+h1 {position: absolute;
+	left: 50%;
+	margin-left: -200px;
+	width: 400px;
+	top:55%;
+	margin-top: -200px;
+	height: 0px;}
