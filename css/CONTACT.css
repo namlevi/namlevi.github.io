@@ -2,6 +2,7 @@ body{
   font-family:arial;
   color:black;
   }
+
 h1 a{
   padding-top: 20px;
   font-size: 60px;
@@ -10,27 +11,23 @@ h1 a{
   color: black;}
 
 h1 a:hover{
-  color: red;                  /* Schriftfarbe schwarz */
-  text-decoration: none;         /* Unterstreichung entfernen */
+  color: red;
+  text-decoration: none;
   padding: 0px 0px;}
+
 h1{
   text-align: center;
   padding-bottom: 0px;
 }
 
 .navi_item{
-  /*display: block;*/
   padding-bottom: 15px;
   text-align: center;
   font-size: 13px;
   min-width: 200px;
   font-weight: lighter;
-
-  /* padding-top: 30px; */
 }
 
-
-/* Listenpunkte weg */
 .navi_item ul {
   margin: 0;
   padding: 0;
@@ -41,28 +38,21 @@ h1{
 }
 
 .navi_item li {
-  display: inline;            /* Listenelemente nebeneinander */
+  display: inline;
   list-style-type: none;
   margin: 0 5px;
-          /* Aufzählungszeichen entfernen */
 }
+
 .navi_item a:hover {
-  color: blue;                  /* Schriftfarbe schwarz */
-  text-decoration: none;         /* Unterstreichung entfernen */
-  padding: 0px 0px;              /* oben/unten 4px, re/li 8px */
+  color: blue;
+  text-decoration: none;
+  padding: 0px 0px;
 }
 
 .navi_item a{
   color: black;
   text-decoration: none;
 }
-
-
-
-
-
-
-
 
 * {
   box-sizing: border-box;
@@ -84,30 +74,4 @@ img {
   width: 33.33%;
   float: left;
   padding: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*div.bilder_container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div.container {
-  display:inline-block;
 }

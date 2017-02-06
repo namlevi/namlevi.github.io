@@ -3,6 +3,7 @@ body{
   color:black;
   background: red;
   }
+
 h1 a{
   padding-top: 20px;
   font-size: 140px;
@@ -10,15 +11,16 @@ h1 a{
   text-decoration: none;
   color: black;}
 
-
 h1 a:hover{
-  color: blue;                  /* Schriftfarbe schwarz */
-  text-decoration: none;         /* Unterstreichung entfernen */
+  color: blue;
+  text-decoration: none;
   padding: 0px 0px;}
+
 h1{
   text-align: center;
   padding-bottom: 0px;
 }
+
 h1 {position: absolute;
 	left: 50%;
 	margin-left: -200px;
